@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SolidVehicles;
 
-public class Vehicle
+public interface IVehicle
 {
     public int FuelCapacity { get; set; }
     public string Color { get; set; }

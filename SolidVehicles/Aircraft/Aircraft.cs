@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace SolidVehicles.Aircraft;
 
-public class Aircraft : Vehicle
+public interface IAircraft
 {
-
-
 
 
 

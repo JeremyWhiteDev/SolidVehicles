@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace SolidVehicles.WaterCraft;
 
-public class BoatyMcBoatFace : Watercraft
+public class BoatyMcBoatFace : IWatercraft, IVehicle
 {
+    public int FuelCapacity { get; set; }
+    public string Color { get; set; }
+    public int PassengerCapacity { get; set; }
+    public int FuelLevel { get; set; }
+
+    public int MPG { get; set; }
+
     public string UniqueProp { get; set; }
 }

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace SolidVehicles.Cars;
 
-public class Car : Vehicle
+public interface ICar
 {
+
 
     public void Drive()
     {

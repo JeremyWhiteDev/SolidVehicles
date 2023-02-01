@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace SolidVehicles.WaterCraft;
 
-public class Watercraft : Vehicle
+public interface IWatercraft
 {
-
 
     public void Sail()
     {
