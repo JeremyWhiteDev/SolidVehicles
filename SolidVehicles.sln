@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidVehicles", "SolidVehicles\SolidVehicles.csproj", "{7CC60DAA-9141-43F1-9519-A444957E2BFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CC60DAA-9141-43F1-9519-A444957E2BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC60DAA-9141-43F1-9519-A444957E2BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC60DAA-9141-43F1-9519-A444957E2BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC60DAA-9141-43F1-9519-A444957E2BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53E7EBF6-913A-447E-8176-FC0147B885EE}
+	EndGlobalSection
+EndGlobal
