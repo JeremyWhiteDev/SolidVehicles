@@ -14,4 +14,15 @@ public class NissanLeaf : IVehicle, ICar
     public int FuelLevel { get; set; }
 
     public int MPG { get; set; }
+
+    public void Brake()
+    {
+        Console.WriteLine("Braking");
+    }
+
+    public void Drive()
+    {
+        Console.WriteLine("Driving");
+    }
+
 }

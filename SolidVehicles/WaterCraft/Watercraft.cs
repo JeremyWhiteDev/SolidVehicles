@@ -9,12 +9,14 @@ namespace SolidVehicles.WaterCraft;
 public interface IWatercraft
 {
 
-    public void Sail()
+    void Sail();
+    void Dock();
+
+    void HelloMsg()
     {
-        Console.WriteLine("Sailing");
+        Console.WriteLine("HELLO");
     }
-    public void Dock()
-    {
-        Console.WriteLine("Docking");
-    }
+
+   // void Trial();
+
 }

@@ -8,14 +8,6 @@ namespace SolidVehicles.Cars;
 
 public interface ICar
 {
-
-
-    public void Drive()
-    {
-        Console.WriteLine("Driving");
-    }
-    public void Brake()
-    {
-        Console.WriteLine("Braking");
-    }
+    void Drive();
+    void Brake();
 }

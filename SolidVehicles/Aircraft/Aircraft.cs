@@ -8,15 +8,6 @@ namespace SolidVehicles.Aircraft;
 
 public interface IAircraft
 {
-
-
-
-    public void Fly()
-    {
-        Console.WriteLine("Flying");
-    }
-    public void Land()
-    {
-        Console.WriteLine("Landing");
-    }
+    void Fly();
+    void Land();
 }

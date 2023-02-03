@@ -3,8 +3,7 @@ using SolidVehicles.Cars;
 using SolidVehicles.WaterCraft;
 // See https://aka.ms/new-console-template for more information
 
-static void Main()
-{
+
     // Build a collection of all vehicles that fly
     List<IAircraft> allAircraft = new List<IAircraft> { new Boeing737(), new MilleniumFalcon() };
 
@@ -32,6 +31,10 @@ static void Main()
     foreach (IWatercraft watercraft in allWaterCraft)
     {
         watercraft.Sail();
+        watercraft.HelloMsg();
     }
+    Console.ReadLine();
 
-}
+AboatTime test = new AboatTime();
+
+
